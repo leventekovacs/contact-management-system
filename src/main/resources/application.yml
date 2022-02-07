@@ -1,0 +1,16 @@
+spring:
+    jpa:
+        database: POSTGRESQL
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+    datasource:
+        platform: postgres
+        driverClassName: org.postgresql.Driver
+        url: jdbc:postgresql://localhost:5432/cms
+        username: postgres
+        password: admin123
+
+server:
+    error:
+        include-message: always
