@@ -7,9 +7,9 @@ spring:
     datasource:
         platform: postgres
         driverClassName: org.postgresql.Driver
-        url: jdbc:postgresql://localhost:5432/cms
-        username: postgres
-        password: admin123
+        url: jdbc:postgresql://ec2-52-30-133-191.eu-west-1.compute.amazonaws.com:5432/dciloq6v55lj2
+        username: qpgtcubmheksgr
+        password: f6f969291670412f54420365b9bbe37311eb3ba461643c7a9277914aa82c86a2
 
 server:
     error:
