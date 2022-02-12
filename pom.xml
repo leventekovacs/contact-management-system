@@ -20,10 +20,6 @@
 
     <description>Contact Management System full stack application with React frontend and Spring Boot backend, and Postgresql database.</description>
 
-    <properties>
-        <java.version>11</java.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
