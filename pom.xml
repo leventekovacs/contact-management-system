@@ -10,7 +10,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.example.contactmanagementsystem</groupId>
+    <groupId>com.contactmanagementsystem</groupId>
 
     <artifactId>contact-management-system</artifactId>
 
@@ -18,7 +18,7 @@
 
     <name>contact-management-system</name>
 
-    <description>Contact Management System full stack application with React frontend and Spring Boot backend, and Postgresql database.</description>
+    <description>Contact Management System full stack application with React frontend, Spring Boot backend, and Postgresql database.</description>
 
     <dependencies>
         <dependency>
@@ -60,29 +60,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <version>3.1.0</version>
-                <executions>
-                    <execution>
-                        <id>copy-resources</id>
-                        <phase>process-classes</phase>
-                        <goals>
-                            <goal>copy-resources</goal>
-                        </goals>
-                        <configuration>
-                            <outputDirectory>${basedir}/target/classes/static</outputDirectory>
-                            <resources>
-                                <resource>
-                                    <directory>frontend/build</directory>
-                                </resource>
-                            </resources>
-                        </configuration>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
