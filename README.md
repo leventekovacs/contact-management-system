@@ -1,3 +1,4 @@
-# This is my first Spring Boot REST API Project with cloud based postgresql database and tests
+# Telemarketing Contanct Management System (Backend part)
 
+This is my first heroku cloud based Spring Boot REST API Project with postgresql database and tests
 The frontend is under development.
